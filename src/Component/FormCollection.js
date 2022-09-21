@@ -97,7 +97,7 @@ class FormCollection extends Component {
   };
   render() {
     return (
-      <div style={{width:'50%',margin:'auto',textAlign:'center'}}>
+      <div style={{width:'90%',margin:'auto',textAlign:'center'}}>
         <Form onSubmit={this.handleSubmit}>
           <Form.Group className="mb-3" controlId="formBasicEmail">
             <Form.Control
